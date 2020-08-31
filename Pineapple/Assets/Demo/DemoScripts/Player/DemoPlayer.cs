@@ -9,6 +9,8 @@ public class DemoPlayer : MonoBehaviour
     private void Awake()
     {
         DemoPlayerManager.Instance.DemoPlayer = this;
+
+        CodeStyleReference codeStyle;
     }
 
     // Update is called once per frame
